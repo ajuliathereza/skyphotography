@@ -154,7 +154,7 @@ button { font: inherit; }
   .menu-toggle[aria-expanded="true"] span:last-child { transform: translateY(-3.5px) rotate(-45deg); }
   .main-nav { position: absolute; top: 0; left: 0; width: 100%; padding: 91px 8% 30px; display: flex; flex-direction: column; align-items: flex-start; gap: 24px; background: rgba(18,29,24,.98); opacity: 0; visibility: hidden; transform: translateY(-8px); transition: .22s; }
   .main-nav.open { opacity: 1; visibility: visible; transform: translateY(0); }
-  .main-nav a { font-size: 18px; }
+  .main-nav a { font-size: 11px; }
   .nav-cta { padding: 10px 14px; }
   .hero { min-height: 720px; height: 94svh; max-height: 850px; }
   .hero-image { object-position: 56% center; }
@@ -570,4 +570,41 @@ body {
   .about-text p { font-size: 16px; line-height: 1.7; }
   .underlined-link { font-size: 15px; }
   .about-aside { display: none; }
+}
+
+
+/* Ícones vetoriais: aparência consistente em iOS, Android e navegadores móveis */
+.ui-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: inherit;
+}
+.icon-slot { display: inline-flex !important; align-items: center; justify-content: center; line-height: 0; }
+.nav-cta .ui-icon { width: 13px; height: 13px; }
+.hero-discover .ui-icon { width: 17px; height: 17px; }
+.photo-caption .ui-icon { width: 15px; height: 15px; }
+.photo-caption b.icon-slot { font-size: 0; }
+.underlined-link .ui-icon { width: 14px; height: 14px; }
+.contact-link .ui-icon { width: 16px; height: 16px; }
+.footer-social .ui-icon { display: inline-block; width: 12px; height: 12px; vertical-align: -2px; margin-left: 5px; }
+.statement-ornament { display: grid; place-items: center; font-size: 0; transform: none; }
+.statement-star { width: 43px; height: 43px; stroke-width: .8; fill: none; }
+.lightbox-prev .ui-icon,.lightbox-next .ui-icon { width: 23px; height: 23px; }
+.lightbox-close.icon-close { width: 42px; height: 42px; font-size: 0; }
+.lightbox-close.icon-close::before,.lightbox-close.icon-close::after {
+  content: ""; position: absolute; left: 10px; top: 20px; width: 22px; height: 1px;
+  background: currentColor; transform: rotate(45deg);
+}
+.lightbox-close.icon-close::after { transform: rotate(-45deg); }
+@media (max-width: 650px) {
+  .ui-icon { width: 15px; height: 15px; }
+  .statement-star { width: 34px; height: 34px; }
+  .lightbox-prev .ui-icon,.lightbox-next .ui-icon { width: 21px; height: 21px; }
 }

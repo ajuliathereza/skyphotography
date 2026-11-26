@@ -1,0 +1,26 @@
+PRISCILA MIGUEL — PORTFÓLIO DE FOTOGRAFIA
+
+COMO VISUALIZAR
+1. Extraia o ZIP.
+2. Abra index.html em um navegador atualizado.
+
+ARQUIVOS
+- index.html: conteúdo, metadados e estrutura do site.
+- style.css: identidade visual, layout responsivo e animações sutis.
+- script.js: menu mobile e galeria ampliada (lightbox).
+- assets/: fotografias, imagem do dente-de-leão e monograma SVG.
+
+DIREÇÃO VISUAL
+- Estética editorial contemporânea, com verde-floresta, preto suave no portfólio, tons de papel, oliva e detalhes quentes.
+- Tipografia Italiana + Manrope.
+- Fotografias em primeiro plano, composição assimétrica e espaços generosos.
+- Navegação mobile, foco visível, suporte a teclado e respeito à preferência por movimento reduzido.
+- Metadados básicos para compartilhamento.
+
+CONTEÚDO
+- A frase do dente-de-leão foi preservada integralmente.
+- A apresentação biográfica utiliza apenas as informações já fornecidas: fotografia em Saquarema/RJ e temas de paisagens, natureza e vida selvagem.
+- O portfólio inclui as fotografias do amanhecer, da coruja e do dente-de-leão. Um retrato da Priscila pode ser adicionado futuramente, se ela desejar.
+
+PUBLICAÇÃO
+Para publicar, envie a pasta inteira para a hospedagem, mantendo a pasta assets ao lado de index.html. As fontes externas carregam pela internet; se estiver offline, o navegador usa fontes de reserva.
