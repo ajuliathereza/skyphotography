@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Símbolo SKY Photography">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0dce8"/>
+      <stop offset="1" stop-color="#c5a6bd"/>
+    </linearGradient>
+  </defs>
+  <path d="M80 12 A68 68 0 1 0 145 102" fill="none" stroke="url(#gold)" stroke-width="1.3" opacity=".9"/>
+  <path d="M73 119 C78 94 81 72 82 45" fill="none" stroke="#ddc4d5" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M82 46 C69 38 62 31 62 25 M82 46 C91 35 98 28 105 24 M82 46 C96 45 106 48 114 55 M82 46 C70 50 61 57 56 66 M82 46 C82 32 84 23 89 16" fill="none" stroke="#ddc4d5" stroke-width="1" stroke-linecap="round"/>
+  <g fill="none" stroke="#ddc4d5" stroke-width=".9">
+    <circle cx="62" cy="25" r="4"/><circle cx="105" cy="24" r="3.5"/><circle cx="114" cy="55" r="3.5"/><circle cx="56" cy="66" r="3.5"/><circle cx="89" cy="16" r="3.5"/>
+    <circle cx="70" cy="35" r="2.2"/><circle cx="96" cy="39" r="2.2"/><circle cx="68" cy="56" r="2.2"/><circle cx="100" cy="63" r="2.2"/>
+  </g>
+  <path d="M80 45 L83 53 L91 56 L83 59 L80 67 L77 59 L69 56 L77 53 Z" fill="#f0dce8"/>
+  <path d="M121 18 L123 24 L129 26 L123 28 L121 34 L119 28 L113 26 L119 24 Z" fill="#d7b9cd"/>
+  <circle cx="43" cy="91" r="1.8" fill="#d7b9cd"/><circle cx="132" cy="77" r="1.5" fill="#d7b9cd"/>
+</svg>
